@@ -1,0 +1,141 @@
+.navbar-fixed-top.scrolled {
+     background-color: var(--nav-scroll) !important;
+     transition: background-color 200ms linear;
+}
+
+nav .navbar-bs {
+     position: relative;
+     height: 100%;
+     max-width: 1400px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 0 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     text-decoration: none;
+     z-index: 100;
+
+     .sidebarOpen {
+          color: var(--font-logo);
+          font-size: 27px;
+          padding: 5px;
+          cursor: pointer;
+          display: none;
+     }
+
+     .logo a {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+          text-decoration: none;
+          color: var(--font-logo);
+     }
+
+     .nav-link {
+          display: flex;
+          align-items: center;
+          justify-content: end;
+          margin: 0px;
+          padding: 0px;
+
+          li {
+               margin-left: 30px;
+               margin-bottom: 0px;
+               align-items: center;
+               list-style: none;
+               text-decoration: none;
+          }
+     }
+
+     .nav-link a {
+          position: relative;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          text-decoration: none;
+          color: var(--nav-item);
+     }
+
+     .nav-link a.daftarMasuk {
+          font-size: 16px;
+          font-weight: 600;
+          color: var(--btn-text);
+     }
+
+
+     .nav-item.active {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          color: var(--nav-item-active);
+     }
+
+     .nav-item:hover {
+          color: var(--nav-item-active);
+     }
+
+}
+
+
+//navbar collapse
+.menu .logo-toggle {
+     display: none;
+}
+
+
+@media (max-width:790px) {
+     nav .navbar-bs .sidebarOpen {
+          display: block;
+          display: flex;
+          align-items: center;
+     }
+
+     nav.active .menu {
+          left: -0%;
+     }
+
+
+     .menu {
+          position: fixed;
+          height: 100%;
+          width: 320px;
+          left: -100%;
+          top: 0;
+          padding: 20px;
+          background-color: var(--primary-color);
+          z-index: 100;
+          transition: all 0.4s ease;
+
+          .logo-toggle {
+               display: block;
+               width: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               color: var(--font-logo);
+
+               .sidebarClose {
+                    color: var(--font-logo);
+                    font-size: 20px;
+                    cursor: pointer;
+               }
+          }
+
+     }
+
+     .navbar-bs .nav-link {
+          flex-direction: column;
+          padding-top: 50px;
+
+          li a {
+               display: block;
+               margin-top: 40px;
+
+          }
+     }
+
+}

@@ -1,0 +1,104 @@
+section.daftarMasuk {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 100px 0;
+
+     .form-daftarMasuk {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+
+          .say h5 {
+               font-style: normal;
+               font-weight: 600;
+               font-size: 24px;
+               color: var(--font-h);
+          }
+
+          .box-form {
+               margin: 30px 10px;
+               width: 100%;
+               max-width: 400px !important;
+
+               p {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+               }
+
+               .form-item {
+                    align-content: center;
+               }
+
+               .form-group {
+                    position: relative;
+                    margin: 18px 15px;
+
+                    label {
+                         margin: 5px 0;
+                    }
+
+                    .form-control {
+                         padding: 15px 25px;
+                         background-color: var(--secondary-color);
+                         border: none;
+                         border-radius: 15px;
+                         box-sizing: border-box;
+                         resize: vertical;
+
+                         &:focus {
+                              box-shadow: 0 0 6px 0px var(--btn-primary)
+                         }
+                    }
+
+                    .submit {
+                         margin: 10px 0;
+                         width: 100%;
+                    }
+
+                    .daftar {
+                         text-align: center;
+
+                         a {
+                              text-decoration: none;
+                              font-weight: 600;
+                              color: var(--font-h);
+
+                              &:hover {
+                                   color: var(--btn-primary);
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+section.registerSukses {
+     display: flex;
+     justify-content: center;
+     padding: 50px 0 0 0;
+
+
+     .title {
+          h5 {
+               text-align: center;
+               font-style: normal;
+               font-weight: 600;
+               font-size: 24px;
+               color: var(--font-h);
+          }
+
+          .relog {
+               margin: 20px 0 50px 0;
+               display: flex;
+               justify-content: center;
+          }
+
+     }
+
+}

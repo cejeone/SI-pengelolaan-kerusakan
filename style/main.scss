@@ -1,0 +1,12 @@
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+
+//pages
+@import "pages/beranda";
+@import "pages/daftarMasuk";
+
+//components
+@import "components/navbar";
+@import "components/footer";
+@import "components/button";

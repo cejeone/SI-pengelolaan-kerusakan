@@ -1,0 +1,226 @@
+section.header-hero {
+     background-color: var(--secondary-color);
+
+     .bs-carousel {
+          padding: 20px 0;
+
+          .carousel-inner {
+               border-radius: 20px;
+          }
+     }
+
+}
+
+
+section.layanan-bs {
+     padding: 50px 0;
+
+     .title-bs {
+          margin: 30px 0;
+
+          .img-layanan {
+               display: flex;
+               justify-content: center;
+          }
+
+          h5 {
+               text-align: center;
+               font-style: normal;
+               font-weight: 700;
+               font-size: 36px;
+               color: var(--font-h);
+               margin-bottom: 20px;
+          }
+
+          p {
+               text-align: center;
+               font-style: normal;
+               font-weight: 300;
+               font-size: 18px;
+               line-height: 36px;
+          }
+     }
+
+     .item-box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 15px;
+          padding: 30px;
+          height: 100%;
+          text-align: center;
+          background-color: var(--secondary-color);
+          text-decoration: none;
+          cursor: pointer;
+          transition: ease-out 0.5s;
+
+
+          .title-item {
+               i {
+                    position: relative;
+                    text-align: center;
+                    font-size: 70px;
+                    color: var(--font-h);
+
+               }
+
+               h5 {
+                    position: relative;
+                    font-style: normal;
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: var(--font-h);
+               }
+
+               p {
+                    position: relative;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    margin-top: 10px;
+                    text-align: center;
+                    color: var(--font-p);
+               }
+
+               :hover {
+                    color: var(--btn-text-hover);
+               }
+
+          }
+     }
+
+     .item-box:hover {
+          border-radius: 15px;
+          box-shadow: inset 0 -300px 0 0 var(--btn-primary);
+          cursor: pointer;
+     }
+
+}
+
+//testimonial
+section.testimonial {
+     margin: 50px 0;
+     background: var(--secondary-color);
+     border-radius: 30px;
+     width: 100%;
+     padding: 50px 40px 50px 40px;
+
+     .section-title {
+          align-items: center;
+          text-align: center;
+          margin: 20px 0px 50px 0px;
+     }
+
+     .testimonials {
+          overflow: hidden;
+
+          .testimonial-item {
+               padding: 40px 30px;
+               background: var(--primary-color);
+               border-radius: 30px;
+               margin: 30px 15px;
+
+               .b5 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 10px 0 25px 0;
+               }
+
+               p {
+                    margin-bottom: 30px;
+                    font-style: italic;
+                    color: var(--font-p);
+                    font-weight: 400;
+                    font-size: 18px;
+               }
+
+               h5 {
+                    text-align: center;
+                    line-height: 20px;
+                    margin-bottom: 0;
+                    margin-top: 5px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: var(--font-h);
+               }
+
+               span {
+                    display: flex;
+                    justify-content: center;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px;
+                    margin-top: 20px;
+                    color: #AFAFAF;
+               }
+          }
+     }
+}
+
+//lokasi
+
+section.lokasi {
+     margin: 30px 0;
+     padding: 30px 0;
+
+     .peta {
+          h5 {
+               text-align: center;
+               font-style: normal;
+               font-weight: 700;
+               font-size: 36px;
+               color: var(--font-h);
+               margin-bottom: 40px;
+          }
+
+          iframe {
+               border-radius: 20px;
+          }
+     }
+
+     .pelayanan {
+          display: flex;
+          align-items: center;
+          margin: 50px 30px;
+
+          .open {
+               display: flex;
+               flex-direction: column;
+
+               span {
+
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+
+                    i {
+                         margin-right: 10px;
+                         font-size: 30px;
+                    }
+               }
+          }
+
+          .lokasi-toko {
+               margin-top: 30px;
+               display: flex;
+               flex-direction: column;
+
+               span {
+
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+
+                    i {
+                         margin-right: 10px;
+                         font-size: 30px;
+                    }
+               }
+          }
+     }
+}

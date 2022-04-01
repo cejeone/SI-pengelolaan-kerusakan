@@ -1,0 +1,16 @@
+.btn-custom {
+     background-color: var(--btn-primary);
+     border-radius: 15px;
+     padding: 15px 30px;
+     font-weight: 700;
+     text-align: center;
+     color: var(--btn-text);
+     transition: ease-out 0.5s;
+     position: relative;
+
+
+     &:hover {
+          box-shadow: inset 0 -100px 0 0 var(--btn-hover);
+          color: var(--btn-text-hover);
+     }
+}
