@@ -13,4 +13,14 @@
           box-shadow: inset 0 -100px 0 0 var(--btn-hover);
           color: var(--btn-text-hover);
      }
+
+     &.btn-optional {
+          font-weight: 500;
+          font-size: 14px;
+          width: 194px;
+
+          &.secondary {
+               background-color: #FFE5D2;
+          }
+     }
 }

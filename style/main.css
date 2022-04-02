@@ -12357,6 +12357,193 @@ section.registerSukses .title .relog {
           justify-content: center;
 }
 
+section.pengajuan-bs {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+section.pengajuan-bs .form-pengajuan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.pengajuan-bs .form-pengajuan .title-bs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+section.pengajuan-bs .form-pengajuan .title-bs .img-pengajuan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.pengajuan-bs .form-pengajuan .title-bs .img-pengajuan img {
+  width: 100%;
+}
+
+section.pengajuan-bs .form-pengajuan .title-bs p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--font-h);
+}
+
+section.pengajuan-bs .form-pengajuan .box-form {
+  margin: 30px 10px;
+  width: 100%;
+  max-width: 500px !important;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-item {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group {
+  position: relative;
+  margin: 18px 15px;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group label {
+  margin: 5px 0;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group .form-control {
+  padding: 15px 25px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: vertical;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group .form-control:focus {
+  -webkit-box-shadow: 0 0 6px 0px var(--btn-primary);
+          box-shadow: 0 0 6px 0px var(--btn-primary);
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group .submit {
+  margin: 10px 0;
+  width: 100%;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group .form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group .form-check label {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+section.pengajuan-bs .form-pengajuan .box-form .form-group .form-check label button.snk {
+  border: none;
+  border-radius: 10px;
+  background-color: #FFD7BA;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+section.pengajuanSukses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+section.pengajuanSukses .title h5, section.pengajuanSukses .title .h5 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--font-h);
+}
+
+section.pengajuanSukses .title .vector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+
+section.pengajuanSukses .title .vector img {
+  width: 100%;
+}
+
+section.pengajuanSukses .title .optional {
+  margin: 20px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.pengajuanSukses .title .optional .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px 0;
+}
+
 .navbar-fixed-top.scrolled {
   background-color: var(--nav-scroll) !important;
   -webkit-transition: background-color 200ms linear;
@@ -12440,6 +12627,15 @@ nav .navbar-bs .nav-link li {
   text-decoration: none;
 }
 
+nav .navbar-bs .nav-link .vertical-divider {
+  width: 20px;
+  margin-left: 30px;
+  background-color: #C6C6C6;
+  border: 1px solid #C6C6C6;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 nav .navbar-bs .nav-link a {
   position: relative;
   font-style: normal;
@@ -12467,8 +12663,14 @@ nav .navbar-bs .nav-item:hover {
 }
 
 nav .navbar-bs .user-profile li.nav-item {
-  margin-left: 30px;
+  margin-left: 20px;
   list-style: none;
+}
+
+nav .navbar-bs .user-profile .nav-link.profile-dropdown:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 nav .navbar-bs .user-profile .dropdown-menu {
@@ -12485,6 +12687,10 @@ nav .navbar-bs .user-profile .dropdown-menu .dropdown-item {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 10px;
+}
+
+nav .navbar-bs .user-profile .dropdown-menu .dropdown-item.pesan, nav .navbar-bs .user-profile .dropdown-menu .dropdown-item.transaksi {
+  display: none;
 }
 
 nav .navbar-bs .user-profile .dropdown-menu .dropdown-item a {
@@ -12518,6 +12724,9 @@ nav .navbar-bs .user-profile .dropdown-menu .dropdown-item:hover {
   }
   nav .navbar-bs .logobs {
     display: none;
+  }
+  nav .navbar-bs .user-profile .dropdown-menu .dropdown-item.pesan, nav .navbar-bs .user-profile .dropdown-menu .dropdown-item.transaksi {
+    display: block;
   }
   nav.active .menu {
     left: -0%;
@@ -12553,6 +12762,14 @@ nav .navbar-bs .user-profile .dropdown-menu .dropdown-item:hover {
     font-size: 20px;
     cursor: pointer;
   }
+  .menu .vertical-divider {
+    display: none;
+  }
+  .menu .horizontal-divider {
+    width: 50px;
+    border: 1px solid #d8d8d8;
+    height: 5px;
+  }
   .navbar-bs .nav-link {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12563,6 +12780,9 @@ nav .navbar-bs .user-profile .dropdown-menu .dropdown-item:hover {
   .navbar-bs .nav-link li a {
     display: block;
     margin-top: 40px;
+  }
+  .navbar-bs .nav-link .nav-item.pesan, .navbar-bs .nav-link .nav-item.transaksi {
+    display: none;
   }
 }
 
@@ -12589,5 +12809,15 @@ footer {
   -webkit-box-shadow: inset 0 -100px 0 0 var(--btn-hover);
           box-shadow: inset 0 -100px 0 0 var(--btn-hover);
   color: var(--btn-text-hover);
+}
+
+.btn-custom.btn-optional {
+  font-weight: 500;
+  font-size: 14px;
+  width: 194px;
+}
+
+.btn-custom.btn-optional.secondary {
+  background-color: #FFE5D2;
 }
 /*# sourceMappingURL=main.css.map */

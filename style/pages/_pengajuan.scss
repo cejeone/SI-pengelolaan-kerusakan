@@ -1,0 +1,139 @@
+section.pengajuan-bs {
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 0;
+
+     .form-pengajuan {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          .title-bs {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               width: 100%;
+
+               .img-pengajuan {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                         width: 100%;
+                    }
+
+               }
+
+               p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: var(--font-h);
+               }
+          }
+
+          .box-form {
+               margin: 30px 10px;
+               width: 100%;
+               max-width: 500px !important;
+
+               .form-item {
+                    align-content: center;
+               }
+
+               .form-group {
+                    position: relative;
+                    margin: 18px 15px;
+
+                    label {
+                         margin: 5px 0;
+                    }
+
+                    .form-control {
+                         padding: 15px 25px;
+                         background-color: var(--secondary-color);
+                         border: none;
+                         border-radius: 15px;
+                         box-sizing: border-box;
+                         resize: vertical;
+
+                         &:focus {
+                              box-shadow: 0 0 6px 0px var(--btn-primary)
+                         }
+                    }
+
+                    .submit {
+                         margin: 10px 0;
+                         width: 100%;
+                    }
+
+                    .form-check {
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+
+                         label {
+                              font-size: 12px;
+                              margin-left: 20px;
+
+                              button.snk {
+                                   border: none;
+                                   border-radius: 10px;
+                                   background-color: #FFD7BA;
+                                   box-shadow: none;
+                              }
+                         }
+                    }
+
+               }
+          }
+     }
+}
+
+//pengajuan sukses
+section.pengajuanSukses {
+     display: flex;
+     justify-content: center;
+     padding: 50px 0 0 0;
+
+
+     .title {
+          h5 {
+               text-align: center;
+               font-style: normal;
+               font-weight: 600;
+               font-size: 24px;
+               color: var(--font-h);
+
+          }
+
+          .vector {
+               display: flex;
+               justify-content: center;
+               margin: 50px 0;
+
+               img {
+                    width: 100%;
+               }
+          }
+
+          .optional {
+               margin: 20px 0 50px 0;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+               .item {
+                    display: flex;
+                    justify-content: center;
+                    margin: 5px 0;
+
+               }
+          }
+
+     }
+}

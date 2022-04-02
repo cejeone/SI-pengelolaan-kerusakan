@@ -56,6 +56,15 @@ nav .navbar-bs {
                list-style: none;
                text-decoration: none;
           }
+
+          .vertical-divider {
+               width: 20px;
+               margin-left: 30px;
+               background-color: #C6C6C6;
+               border: 1px solid #C6C6C6;
+               transform: rotate(90deg);
+          }
+
      }
 
      .nav-link a {
@@ -87,8 +96,13 @@ nav .navbar-bs {
 
      .user-profile {
           li.nav-item {
-               margin-left: 30px;
+               margin-left: 20px;
                list-style: none;
+          }
+
+          .nav-link.profile-dropdown:focus {
+               border: none;
+               box-shadow: none;
           }
 
           .dropdown-menu {
@@ -100,6 +114,11 @@ nav .navbar-bs {
                     display: flex;
                     align-items: center;
                     padding: 10px 10px;
+
+                    &.pesan,
+                    &.transaksi {
+                         display: none;
+                    }
 
                     a {
                          font-style: normal;
@@ -142,6 +161,16 @@ nav .navbar-bs {
           .logobs {
                display: none;
           }
+
+          .user-profile .dropdown-menu .dropdown-item {
+
+               &.pesan,
+               &.transaksi {
+                    display: block;
+               }
+
+
+          }
      }
 
 
@@ -176,6 +205,16 @@ nav .navbar-bs {
                }
           }
 
+          .vertical-divider {
+               display: none;
+          }
+
+          .horizontal-divider {
+               width: 50px;
+               border: 1px solid rgb(216, 216, 216);
+               height: 5px;
+          }
+
      }
 
      .navbar-bs .nav-link {
@@ -186,6 +225,14 @@ nav .navbar-bs {
                display: block;
                margin-top: 40px;
 
+          }
+
+          .nav-item {
+
+               &.pesan,
+               &.transaksi {
+                    display: none;
+               }
           }
      }
 
