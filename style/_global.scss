@@ -4,6 +4,7 @@
      //color
      --primary-color: #fffffe;
      --secondary-color: #eff0f3;
+     --third-color: #FAFAFA;
      --card-bg: #eff0f3;
 
      //font color
@@ -29,6 +30,33 @@ body {
      width: 100%;
      position: relative;
      background-color: var(--primary-color);
+     transition: all 0.3s ease-in-out;
+
+     &.dark {
+          //color
+          --primary-color: #121212;
+          --secondary-color: #2a2a2a;
+          --third-color: #222222;
+          --card-bg: #eff0f3;
+
+          //font color
+          --font-h: #ffff;
+          --font-p: #ffff;
+          --font-logo: #ffff;
+          --font-footer: #0d0d0d;
+
+          //nav color
+          --nav-scroll: #fffffe;
+          --nav-item-active: #000000;
+          --nav-item: #c5c5c5;
+
+          //button
+          --btn-primary: #ff8e3c;
+          --btn-hover: #FF8126;
+          --btn-text: #0d0d0d;
+          --btn-text-hover: #fff;
+
+     }
 }
 
 .page-content {

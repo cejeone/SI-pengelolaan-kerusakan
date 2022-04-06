@@ -9,7 +9,12 @@
 @import "pages/komplain";
 @import "pages/transaksi";
 
+//dashboard
+@import "pages/dashboard";
+
 //components
 @import "components/navbar";
+@import "components/sidebar";
 @import "components/footer";
 @import "components/button";
+@import "components/datatable";
